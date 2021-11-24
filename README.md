@@ -1,1 +1,6 @@
-# These are the files used for the FYP in BSc Business Analytics. The codes are generally ran in parts on Jupyter workbook
+# These are the files used for the Capstone Project in BSc Business Analytics. The codes are generally ran in parts on Jupyter workbook
+# The data preparation stage is done using Python on Jupyter workbook using the code shown in DataPrepADASYN.py. The cleaned file is then split 80:20 into training and test set. The training set is then sampled using the ADASYN sampling technique, and both training and testing sets are exported as a CSV file. Both CSV files will then be used in the IBM SPSS modeller, which compared the performance of different types of Decision Trees (CART/CHAID/C5.0), Artificial Neural Network, and Support Vector Machine. The SPSS stream can be found at FYP Final Stream.str, the train and test files can be found as ADASYN_train.csv/ADASYN_test.csv
+
+# The FYP_proposal.pdf is the initial proposal of using financial ratios, found on Factset, to predict possible bankruptcy of companies in energy sector. It highlights the entire project schedule, outlines the entire projects core with literature review showing the different predictive models used for bankruptcy prediction. The proposal's presentatation slides are shown as well.
+
+# The FYP_Final_Report.pdf is the final report produced for the project which consists of all of the steps done to achieve the objective of bankruptcy prediction, from data collection, cleaning, transformation to modelling and model comparison. 
